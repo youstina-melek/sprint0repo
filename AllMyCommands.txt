@@ -1,0 +1,28 @@
+$ git config --global user.name "Youstina Melek"
+$ git config --global user.email "youstina.melek94@gmail.com"
+$ cd C:/Users/Youstina/Downloads/SE
+$ cd sprint0
+$ git init
+$ git add section1.1.txt
+$ git add section3.1.txt
+$ git add section5.1.txt
+$ rm -rf section3.1.txt
+$ git checkout section3.1.txt
+$ git commit -m "My first Commit"
+$ git remote add origin https://github.com/youstina-melek/sprint0repo.git
+$ git push -u origin master
+$ git checkout -b ReadMe
+$ git add README.md
+$ git commit -m "README.md is added"
+$ git push -u origin ReadMe
+$ git checkout master
+$ git merge ReadMe
+
+
+
+
+
+
+
+
+
